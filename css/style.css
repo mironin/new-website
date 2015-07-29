@@ -1,9 +1,9 @@
 html, body {
   margin: 0;
-  color: #333;
+  color: #333333;
   background: #fff;
   font-size: 16px;
-  font-family: "Tahoma", "Calibri", sans-serif;
+  font-family: "Fira Sans",sans-serif;
 }
 
 .header {
@@ -14,11 +14,15 @@ html, body {
 
 .content {
   background-color: rgba(0,0,0, .1);
+  text-align: center;
 }
 
 .content .inner {
-  min-height: 400px;
+  min-height: 800px;
+  hr
 }
+
+
 
 .footer {
   color: #ffffff;
@@ -33,5 +37,25 @@ html, body {
   width: 800px;
   height: 100px;
   margin: 0 auto;
+}
+
+.inner h1 {
+  margin: 0;
+  align: center;
+  padding-top: 20px;
+}
+
+.inner hr {
+  margin: 10;
+  width: 60%;
+  align: center;
+}
+
+.abzatz p {
+  align: center;
+}
+
+.pic {
+  align: center;
 }
 
