@@ -15,14 +15,13 @@ html, body {
 .content {
   background-color: rgba(0,0,0, .1);
   text-align: center;
+ 
 }
 
 .content .inner {
-  min-height: 800px;
-  hr
+  min-height: 900px;
+  width: 400;
 }
-
-
 
 .footer {
   color: #ffffff;
@@ -40,14 +39,14 @@ html, body {
 }
 
 .inner h1 {
-  margin: 0;
   align: center;
-  padding-top: 20px;
+  margin:   0;
+  padding-top: 30px;
 }
 
 .inner hr {
-  margin: 10;
-  width: 60%;
+  margin: 0;
+  width: 100%;
   align: center;
 }
 
